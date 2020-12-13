@@ -1,0 +1,5 @@
+# CLion
+.idea
+.gradle
+cmake-build-debug
+
