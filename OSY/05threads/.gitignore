@@ -1,0 +1,7 @@
+# CLion
+.idea
+.gradle
+cmake-build-debug
+
+# zip
+osy05.tgz
