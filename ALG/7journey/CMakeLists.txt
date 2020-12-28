@@ -7,4 +7,3 @@ set(GCC_COVERAGE_COMPILE_FLAGS "-pipe -Wall -O3")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}")
 
 add_executable(7journey main.cpp)
-add_executable(7journey_corr main_corr.cpp)
