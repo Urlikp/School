@@ -1,8 +1,0 @@
-# CLion
-.idea
-.gradle
-cmake-build-debug
-
-# zip
-main.zip
-main_best.zip
