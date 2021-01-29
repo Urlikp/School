@@ -1,5 +1,6 @@
 #include "solver.h"
 
+// load input from <file_name>
 void solver::load_input(const std::string& file_name) {
     std::ifstream file;
     file.open(file_name);
@@ -21,10 +22,11 @@ void solver::load_input(const std::string& file_name) {
         file.close();
     } else {
         std::cerr << "File doesn't exist.";
-        exit(1);
+        exit(2);
     }
 }
 
+// load individual numbers
 double solver::load_number(std::ifstream& input_file) {
     std::string str;
     input_file >> str;
@@ -32,9 +34,10 @@ double solver::load_number(std::ifstream& input_file) {
     try {
         return std::stod(str);
     } catch (std::exception& exception) {
-        std::cerr << exception.what();
+        std::cerr << exception.what() << std::endl;
         std::cerr << "File is not in required format!";
-        exit(1);
+        delete mat;
+        exit(3);
     }
 }
 
@@ -42,41 +45,41 @@ void solver::print_matrix(bool only_right_side) {
     mat->print_matrix(only_right_side);
 }
 
+// compute the inverse matrix using Gauss–Jordan elimination
 bool solver::solve() {
     const int dimension = mat->get_dimension();
 
     for (int i = 0; i < dimension - 1; i++) {
-        //kontrola jestli na hlavni diagonale jsou nenulova cisla a pripadne prohozeni radku
+        // check if there is zero on main diagonal, if yes swap rows
         for (int j = i + 1; j < dimension && mat->is_zero_on_diagonal(i); j++) {
             mat->swap_rows(i, j);
         }
 
-        //pokud prohozeni radku nepomuze => konec programu
+        // if swapping rows doesn't help => end of program
         if (mat->is_zero_on_diagonal(i)) {
-            std::cout << "Regularni matici bych prosil..." << std::endl;
             return false;
         }
 
-        //prevod do schodoviteho tvaru
+        // transfer to Row echelon form
         for (int j = i + 1; j < dimension; j++) {
             mat->multiply_and_sum_rows(i, j);
         }
     }
 
-    //pokud po prevedeni do schodoviteho tvaru je clen v poslednim radku a v poslednim sloupci leve strany rovnic roven nule, pak matice neni regularni => konec programu
+    // if, after transfer to Row echelon form, the number at the last cell in the last column is equal to 0, than matrix
+    // is not regular => end of program
     if (mat->is_zero_on_diagonal(dimension - 1)) {
-        std::cout << "Regularni matici bych prosil..." << std::endl;
         return false;
     }
 
-    //prevod ze schodoviteho tvaru na diagonalni matici
+    // transfer from Row echelon form to diagonal matrix
     for (int i = dimension - 1; i >= 1; i--) {
         for (int j = i - 1; j>=0; j--) {
             mat->multiply_and_sum_rows(i, j);
         }
     }
 
-    //vydeleni radku tak, aby jsme dostali na leve strane jednotkovou matici
+    // divide the rows so we get identity matrix on left side
     for (int i = 0; i < dimension; i++) {
         mat->divide_row(i);
     }

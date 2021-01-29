@@ -9,7 +9,6 @@ class solver {
     double load_number(std::ifstream& input_file);
 protected:
     matrix *mat;
-    bool is_regular = true;
 public:
     void load_input(const std::string& file_name);
     void print_matrix(bool only_right_side);

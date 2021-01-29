@@ -1,6 +1,7 @@
 #include "matrix.h"
 
-//sum of first_row multiplied by first_coefficient and second_row multiplied by second_coefficient is saved to second_row
+// sum of first_row multiplied by first_coefficient and second_row multiplied by second_coefficient is saved to
+// second_row
 void matrix::multiply_and_sum_rows(int first_row, int second_row) {
     if (data[second_row][first_row] == 0.0f) {
         return;
@@ -13,6 +14,8 @@ void matrix::multiply_and_sum_rows(int first_row, int second_row) {
     }
 }
 
+// divide every number, in the right side of the specified row, by number, from left side of the row, that is on the
+// main diagonal
 void matrix::divide_row(int row) {
     for(int i = dimension; i < 2 * dimension; i++)
     {
@@ -25,10 +28,7 @@ void matrix::set_value(int row, int col, double value) {
     data[row][col] = value;
 }
 
-double matrix::get_value(int row, int col) {
-    return data[row][col];
-}
-
+// print matrix, either only right side or the whole matrix
 void matrix::print_matrix(bool only_right_side) {
     int col = 0;
 
@@ -47,6 +47,7 @@ void matrix::print_matrix(bool only_right_side) {
     }
 }
 
+// swap two rows
 void matrix::swap_rows(int first_row, int second_row) {
     double *temp;
     temp = data[first_row];

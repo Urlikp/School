@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_executable(inverse_matrix main.cpp single_thread_solver.cpp single_thread_solver.h solver.cpp solver.h matrix.cpp matrix.h)
+add_executable(inverse_matrix main.cpp solver.cpp solver.h matrix.cpp matrix.h)
 
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)

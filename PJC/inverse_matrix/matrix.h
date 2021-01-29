@@ -8,7 +8,6 @@ class matrix {
     int dimension;
     double **data;
 
-
 public:
     explicit matrix(const int dim) : dimension(dim) {
         data = new double*[dim];
@@ -38,7 +37,6 @@ public:
     void multiply_and_sum_rows(int first_row, int second_row);
     void divide_row(int row);
     void set_value(int row, int col, double value);
-    double get_value(int row, int col);
     void print_matrix(bool only_right_side);
     bool is_zero_on_diagonal(int row);
 };
