@@ -22,3 +22,15 @@ Matice by měla být v následujícím formátu: na prvním řádku se nachází
 ## Poznámky
 
 Program s více vlákny je pomalejší než jednovláknová varianta, pravděpodobně protože se dá paralelizovat pouze sčítání jednotlivých řádků a navíc dochází k uzamknutí mutexu, z důvodu sdílených proměnných. Pro příliš velké matice a příliš velká čísla může dojít k situaci, kdy se výsledné číslo nevejde do datového typu long double a program tedy vypíše místo čísla nan (not a number).
+
+## Porovnání
+
+|          | Single                                        | Multi                                         |
+| -------- | :-------------------------------------------: | :-------------------------------------------: |
+| vstup_00 | real: 0m0.019s, user: 0m0.008s, sys: 0m0.008s | real: 0m0.054s, user: 0m0.008s, sys: 0m0.010s |
+| vstup_01 | real: 0m0.023s, user: 0m0.015s, sys: 0m0.002s | real: 0m0.020s, user: 0m0.011s, sys: 0m0.007s |
+| vstup_02 | real: 0m0.021s, user: 0m0.010s, sys: 0m0.006s | real: 0m0.020s, user: 0m0.007s, sys: 0m0.012s |
+| vstup_03 | real: 0m0.022s, user: 0m0.010s, sys: 0m0.006s | real: 0m0.018s, user: 0m0.011s, sys: 0m0.005s |
+| vstup_04 | real: 0m0.021s, user: 0m0.008s, sys: 0m0.007s | real: 0m0.022s, user: 0m0.014s, sys: 0m0.009s |
+| test     | real: 0m0.019s, user: 0m0.016s, sys: 0m0.001s | real: 0m0.027s, user: 0m0.014s, sys: 0m0.010s |
+
