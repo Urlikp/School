@@ -41,8 +41,39 @@ double solver::load_number(std::ifstream& input_file) {
     }
 }
 
+// print matrix
 void solver::print_matrix(bool only_right_side) {
     mat->print_matrix(only_right_side);
+}
+
+// multithread transfer to Row echelon form
+void solver::row_echelon_form(int dimension) {
+    int second_row;
+
+    remaining_rows_mutex.lock();
+    while (remaining_rows < dimension) {
+        second_row = remaining_rows;
+        remaining_rows++;
+        remaining_rows_mutex.unlock();
+        mat->multiply_and_sum_rows(current_row, second_row);
+        remaining_rows_mutex.lock();
+    }
+    remaining_rows_mutex.unlock();
+}
+
+// multithread transfer from Row echelon form to diagonal matrix
+void solver::diagonal_matrix() {
+    int second_row;
+
+    remaining_rows_mutex.lock();
+    while (remaining_rows >= 0) {
+        second_row = remaining_rows;
+        remaining_rows--;
+        remaining_rows_mutex.unlock();
+        mat->multiply_and_sum_rows(current_row, second_row);
+        remaining_rows_mutex.lock();
+    }
+    remaining_rows_mutex.unlock();
 }
 
 // compute the inverse matrix using Gauss–Jordan elimination
@@ -61,8 +92,22 @@ bool solver::solve() {
         }
 
         // transfer to Row echelon form
-        for (int j = i + 1; j < dimension; j++) {
-            mat->multiply_and_sum_rows(i, j);
+        if (num_threads == 1) {
+            for (int j = i + 1; j < dimension; j++) {
+                mat->multiply_and_sum_rows(i, j);
+            }
+        } else {
+            current_row = i;
+            remaining_rows = i + 1;
+
+            std::vector<std::thread> threads;
+            for (unsigned int j = 0; j < num_threads; j++) {
+                threads.emplace_back(&solver::row_echelon_form, this, dimension);
+            }
+
+            for (auto& t : threads) {
+                t.join();
+            }
         }
     }
 
@@ -74,8 +119,22 @@ bool solver::solve() {
 
     // transfer from Row echelon form to diagonal matrix
     for (int i = dimension - 1; i >= 1; i--) {
-        for (int j = i - 1; j>=0; j--) {
-            mat->multiply_and_sum_rows(i, j);
+        if (num_threads == 1) {
+            for (int j = i - 1; j >= 0; j--) {
+                mat->multiply_and_sum_rows(i, j);
+            }
+        } else {
+            current_row = i;
+            remaining_rows = i - 1;
+
+            std::vector<std::thread> threads;
+            for (unsigned int j = 0; j < num_threads; j++) {
+                threads.emplace_back(&solver::diagonal_matrix, this);
+            }
+
+            for (auto& t : threads) {
+                t.join();
+            }
         }
     }
 

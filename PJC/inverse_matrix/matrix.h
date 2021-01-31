@@ -6,13 +6,13 @@
 
 class matrix {
     int dimension;
-    double **data;
+    long double **data;
 
 public:
     explicit matrix(const int dim) : dimension(dim) {
-        data = new double*[dim];
+        data = new long double*[dim];
         for (int i = 0; i < dim; i++) {
-            data[i] = new double[2 * dim];
+            data[i] = new long double[2 * dim];
 
             for (int j = dim; j < 2 * dim; j++) {
                 data[i][j] = 0;
@@ -26,7 +26,7 @@ public:
         for (int i = 0; i < dimension; i++) {
             delete [] data[i];
         }
-        delete data;
+        delete [] data;
     }
 
     int get_dimension() const {

@@ -7,7 +7,7 @@ void matrix::multiply_and_sum_rows(int first_row, int second_row) {
         return;
     }
 
-    double first_coefficient = -data[second_row][first_row], second_coefficient = data[first_row][first_row];
+    long double first_coefficient = -data[second_row][first_row], second_coefficient = data[first_row][first_row];
 
     for (int i = 0; i < 2 * dimension; i++) {
         data[second_row][i] = first_coefficient * data[first_row][i] + second_coefficient * data[second_row][i];
@@ -24,6 +24,7 @@ void matrix::divide_row(int row) {
     data[row][row]=1;
 }
 
+// sets value in matrix
 void matrix::set_value(int row, int col, double value) {
     data[row][col] = value;
 }
@@ -36,11 +37,11 @@ void matrix::print_matrix(bool only_right_side) {
         col = dimension;
     }
 
-    std::cout << std::setprecision(2) << std::fixed;
+    std::cout << std::setprecision(3) << std::fixed;
 
     for (int i = 0; i < dimension; i++) {
         for (int j = col; j < 2 * dimension; j++) {
-            std::cout << ((std::abs(data[i][j]) < 0.005) ? 0: data[i][j]) << "\t";
+            std::cout << ((std::abs(data[i][j]) < 0.0005) ? 0: data[i][j]) << "\t\t";
         }
 
         std::cout << std::endl;
@@ -49,12 +50,13 @@ void matrix::print_matrix(bool only_right_side) {
 
 // swap two rows
 void matrix::swap_rows(int first_row, int second_row) {
-    double *temp;
+    long double *temp;
     temp = data[first_row];
     data[first_row] = data[second_row];
     data[second_row] = temp;
 }
 
+// check if there is a zero on position [row][row]
 bool matrix::is_zero_on_diagonal(int row) {
     return data[row][row] == 0;
 }
