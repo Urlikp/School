@@ -1,0 +1,7 @@
+Input matrix, including right side of the equations:
+1.000		1.000		1.000		1.000		0.000		0.000		
+1.000		1.000		1.000		0.000		1.000		0.000		
+1.000		1.000		1.000		0.000		0.000		1.000		
+
+Input matrix is not regular, therefore it's inverse matrix doesn't exist
+Needed 0 ms to finish.
