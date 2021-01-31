@@ -26,9 +26,12 @@ bool multi_thread(std::string const& argument) {
 
 // print help
 void print_help(std::string const& exe_name) {
-    std::clog << "Usage: " << exe_name << " [OPTIONS]\n\n" << "Program to compute inverse matrix from input matrix saved in file (default name: test.txt).\n\n"
-    << "Options:\n" << "-h\t\tPrint help and exit program\n" <<
-    "-f <filename>\tSpecify that input matrix is in file <filename>\n";
+    std::clog << "Usage: " << exe_name << " [OPTIONS]\n\n" <<
+    "Program to compute inverse matrix from input matrix saved in file (default name: test.txt).\n\n" <<
+    "Options:\n" <<
+    "-h/--help\t\tPrint help and exit program\n" <<
+    "-f/--file <filename>\tSpecify that input matrix is in file <filename>\n" <<
+    "-t/--thread\t\tRun multithread version\n";
 }
 
 int main(int argc, char* argv[]) {
