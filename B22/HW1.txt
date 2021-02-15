@@ -1,0 +1,34 @@
+25.1	1)	25
+		2)	23
+		3)	every number is multiplied by 3 to get the next number
+		4)	41
+		5)	7
+		6)	7/9 is a fraction, while 4 is a whole number
+		7)	in most jobs yes, but people who are self-employed must declare their earnings and pay tax afterwards
+		8)	accountant should be pleased, because everything is in order
+
+25.2	1)	calculate
+		2)	approximate
+		3)	precise
+		4)	estimate
+		5)	tally
+		6)	constant
+		7)	continous
+		8)	discrete
+		9)	round
+		10)	down
+
+25.3	1)	The incidence of car accidents dropped last year
+		2)	We estimated the final figure
+		3)	The graph shows the results in order of magnitude
+		4)	A computer program helped us calculate the significance of the different variables
+		5)	Subtracting x from y will help you arrive at the correct answer
+		6)	The results from the first experiment did not tally with those from the repeat experiment
+		
+25.4	1)	workings
+		2)	arrived
+		3)	calculations
+		4)	area
+		5)	figures
+		6)	values
+		7)	variables
