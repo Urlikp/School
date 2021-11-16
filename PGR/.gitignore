@@ -1,0 +1,9 @@
+# PGR library
+pgr-framework/
+pgr-framework-2-vs2019.zip
+
+# Blender export
+io_export_pgrcpp_2_8_x.py
+
+# Upload model
+models/
