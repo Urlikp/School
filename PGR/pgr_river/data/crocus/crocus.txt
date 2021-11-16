@@ -1,0 +1,13 @@
+#DownloadModelFormat: OBJ
+#GeometryFile: crocus.obj
+#MaterialFile: crocus.mtl
+#PreviewFile: crocus.png
+#OtherFiles: crocus.tga
+#DownloadedFromURL: https://free3d.com/3d-model/crocus-flower-v1--75899.html
+#DateOfDownload: 23.06.2021
+#CreatedBy: printable_models
+#CreatedIn: 3ds Max
+#UploadedBy: Jiří Povolný
+#Description: Crocus
+#NumberOfPolygons: 51968
+

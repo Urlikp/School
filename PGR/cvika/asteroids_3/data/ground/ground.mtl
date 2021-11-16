@@ -1,0 +1,21 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+
+newmtl Material.001
+
+
+
+Ka 0.10 0.10 0.10
+
+Kd 1.00 1.00 1.00
+Ks 0.5 0.5 0.5
+Ke 0.00 0.00 0.00
+Ns 8
+Ni 1.500000
+d 1.000000
+Tr 0.000000
+Tf 1.000000 1.000000 1.000000 
+illum 2
+map_Ka ground.png
+map_Kd ground.png

@@ -1,0 +1,12 @@
+#DownloadModelFormat: OBJ
+#GeometryFile: ryba.obj
+#MaterialFile: ryba.mtl
+#PreviewFile: preview.jpg
+#OtherFiles: FISH01.TGA
+#DownloadedFromURL: -
+#DateOfDownload: 28.5.2007
+#CreatedBy: Michaela Zbytovská
+#CreatedIn: 3DS Max 2008
+#UploadedBy: Michaela Zbytovská
+#Description: Model ryby, má nìco ze žraloka, ale žralok to neni.
+#NumberOfPolygons: 750

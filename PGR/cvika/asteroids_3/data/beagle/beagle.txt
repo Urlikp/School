@@ -1,0 +1,12 @@
+#DownloadModelFormat: OBJ
+#GeometryFile: beagle.obj
+#MaterialFile: Beagle.mtl
+#PreviewFile: beagle_preview.jpg
+#OtherFiles: Beagle.jpg
+#DownloadedFromURL: https://free3d.com/3d-model/beagle-v1--696208.html
+#DateOfDownload: 21.6.2020
+#CreatedBy: printable_models
+#CreatedIn: Unknown
+#UploadedBy: Yanina Arameleva
+#Description: Beagle - dog
+#NumberOfPolygons: 27928

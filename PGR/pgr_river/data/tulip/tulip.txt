@@ -1,0 +1,13 @@
+#DownloadModelFormat: OBJ
+#GeometryFile: tulip.obj
+#MaterialFile: tulip.mtl
+#PreviewFile: tulip.png
+#OtherFiles: tulip_stalk.tga, tulip_leaf.tga, tulip_petal.tga
+#DownloadedFromURL: https://free3d.com/3d-model/tulip-flower-v1--796116.html
+#DateOfDownload: 23.06.2021
+#CreatedBy: printable_models
+#CreatedIn: 3ds Max
+#UploadedBy: Jiří Povolný
+#Description: red tulip
+#NumberOfPolygons: 129792
+

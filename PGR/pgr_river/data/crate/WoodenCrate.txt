@@ -1,0 +1,13 @@
+#DownloadModelFormat: OBJ
+#GeometryFile: WoodenCrate.obj
+#MaterialFile: WoodenCrate.mtl
+#PreviewFile: WoodenCrate.png
+#OtherFiles: Diffuse.tga
+#DownloadedFromURL: https://www.turbosquid.com/3d-models/3d-wooden-crate-model-1744087
+#DateOfDownload: 23.06.2021
+#CreatedBy: ERstore
+#CreatedIn: Blender
+#UploadedBy: Jiří Povolný
+#Description: Wooden crate with open top
+#NumberOfPolygons: 348
+

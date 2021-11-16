@@ -1,0 +1,12 @@
+#DownloadModelFormat: OBJ
+#GeometryFile: bird.obj
+#MaterialFile: 12248_Bird_v1_L2.mtl
+#PreviewFile: duck_preview.jpg
+#OtherFiles: 12248_Bird_v1_diff
+#DownloadedFromURL: https://free3d.com/3d-model/bird-v1--282209.html
+#DateOfDownload: 21.6.2020
+#CreatedBy: printable_models
+#CreatedIn: Unknown
+#UploadedBy: Yanina Arameleva
+#Description: Duck
+#NumberOfPolygons: 8752

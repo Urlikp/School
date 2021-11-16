@@ -1,0 +1,12 @@
+#DownloadModelFormat: OBJ
+#GeometryFile: cow.obj
+#MaterialFile: cow.mtl
+#PreviewFile: cow.jpg
+#OtherFiles: 
+#DownloadedFromURL:   unknown
+#DateOfDownload:   11.6.2007           
+#CreatedBy:  unknown
+#CreatedIn:    unknown
+#UploadedBy: Petr Pokorny
+#Description: Model of cow
+#NumberOfPolygons: 3285

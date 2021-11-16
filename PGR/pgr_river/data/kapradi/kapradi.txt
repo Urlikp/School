@@ -1,0 +1,12 @@
+#DownloadModelFormat: OBJ
+#GeometryFile: kapradi.obj
+#MaterialFile: kapradi.mtl
+#PreviewFile: preview.jpg
+#OtherFiles: plane.tga
+#DownloadedFromURL: -
+#DateOfDownload: 28.5.2007
+#CreatedBy: Michaela Zbytovská
+#CreatedIn: 3DS Max 2008
+#UploadedBy: Michaela Zbytovská
+#Description: Kapradi
+#NumberOfPolygons: 1787

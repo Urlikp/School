@@ -1,0 +1,13 @@
+#DownloadModelFormat: OBJ
+#GeometryFile: WoodPile.obj
+#MaterialFile: WoodPile.mtl
+#PreviewFile: WoodPile.png
+#OtherFiles: WoodTexture.tga
+#DownloadedFromURL: https://free3d.com/3d-model/roundwood-41562.html
+#DateOfDownload: 23.06.2021
+#CreatedBy: gunnarcorrea
+#CreatedIn: Blender
+#UploadedBy: Jiří Povolný
+#Description: Wood pile
+#NumberOfPolygons: 2028
+

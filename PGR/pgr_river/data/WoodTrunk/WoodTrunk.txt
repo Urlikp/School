@@ -1,0 +1,13 @@
+#DownloadModelFormat: OBJ
+#GeometryFile: WoodTrunk.obj
+#MaterialFile: WoodTrunk.mtl
+#PreviewFile: WoodTrunk.png
+#OtherFiles: WoodTrunk_diffuse.tga
+#DownloadedFromURL: https://free3d.com/3d-model/trunk-wood-342814.html
+#DateOfDownload: 23.06.2021
+#CreatedBy: gabrielferreirasilveira21
+#CreatedIn: Blender
+#UploadedBy: Jiří Povolný
+#Description: Wood trunk
+#NumberOfPolygons: 352
+

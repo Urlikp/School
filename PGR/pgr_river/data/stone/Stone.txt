@@ -1,0 +1,13 @@
+#DownloadModelFormat: OBJ
+#GeometryFile: Stone.obj
+#MaterialFile: Stone.mtl
+#PreviewFile: Stone.png
+#OtherFiles: Diffuse.tga
+#DownloadedFromURL: https://www.turbosquid.com/3d-models/free-obj-model-stones-games-racing/561881
+#DateOfDownload: 23.06.2021
+#CreatedBy: Veleran
+#CreatedIn: 3ds Max
+#UploadedBy: Jiří Povolný
+#Description: Stone
+#NumberOfPolygons: 396
+
