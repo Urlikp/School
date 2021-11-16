@@ -1,0 +1,142 @@
+17.1	1)	No, it isn't. You have to have a first degree
+		2)	From other pages on the website or by asking the relevant department
+		3)	Yes, they need a translated transcript of your university courses and grades
+		4)	If the applicant has spent at least one year in English-medíum education
+		5)	At least 6.5
+		
+17.2	1)	personal statement
+		2)	financial guarantee
+		3)	seek clarification
+		4)	student loan
+		5)	equal opportunities
+		6)	mature student
+		7)	application form
+		8)	first degree
+		9)	minimum score
+		10)	tough competition
+		
+17.3	1)	The university wants the names of two referees to make sure that the student is making accurate claims about himself on the application form
+		2)	The university wants financial guarantees to make sure that the student will be able to pay the tuition fees
+		3)	The university wants a personal statement to gain an impression of what kind of person the student is and how motivated he is with respect to the course being applied for
+		4)	The university wants a transcript of courses taken, with grades, to make sure that the student has an appropriate academic background for the course applied for
+		5)	The university wants an IELTS score of 6.5 or a TOEFL score of at least 580 to make sure that the student's level of English is good enough to cope with English-medium instruction
+		
+17.4	1)	decide on what career they would like to do
+		2)	find an appropriate course
+		3)	check that they fulfil the necessary entry requirements
+		4)	ask referees if it is all right to put their names on the application form
+		5)	fill in an application form
+		6)	attach a personal statement to the form
+		7)	wait for the application to be processed
+		8)	be called for an interview
+		9)	attend an interview
+		10)	be offered a place
+		
+17.5	1)	career
+		2)	get
+		3)	postgraduate
+		4)	filled
+		5)	profile
+		6)	entry requirements
+		7)	transcript
+		8)	grades
+		9)	deadline
+		10)	call
+		
+18.1	1)	the Arts faculty Building
+		2)	the Student Union
+		3)	the halls of residence
+		4)	the Administration Building
+		5)	the Great Hall
+		6)	the Arts Lecture Theatre
+		7)	the University Health Centre
+		8)	the University Library
+		
+18.2	1)	More people in a seminar
+		2)	Supervisor
+		3)	Vacation
+		4)	A personal tutor deals with academic matters and a student counsellor deals with more personal problems
+		5)	Postgrad rep is someone from the postgraduate student body who represents the students' point of view and a student counsellor is a member of staff whose job it is to support the students through any difficult personal situations
+		
+18.3	1)	residence
+		2)	lecture
+		3)	lecturer
+		4)	department
+		5)	tutorial
+		6)	semester
+		7)	dissertation
+		8)	supervisor
+		9)	hours
+		
+18.4	people				place			event
+		--------------------------------------------
+		counsellor			cafeteria		lecture
+		lecturer			library			seminar
+		librarian			sports centre	tutorial
+		postgrad rep		sports grounds
+		professor			lecture theatre
+		research assistant
+		research student
+		tutor
+		
+19.1	1)	American, faculty refers to people
+		2)	American, grading term papers
+		3)	American, in the UK school doesn't refer to college or university
+		4)	British, a faculty here means a group of departments concerned with similar academic disciplines
+		5)	British, a rubric is a set of instructions as to how a task must be done
+		
+19.2	1)	freshman, first-year student
+		2)	sophomore, second-year student
+		3)	junior student, third-year studem
+		4)	senior student, fourth-year student
+		5)	graduate student, student who has already completed an undergraduate degree and is studying for a master's degree
+
+19.3	1)	false, an advisor is someone who helps American students with their academic studies
+		2)	false, women join a sorority, a fraternity is for men
+		3)	false, finals refers to final exams at the end of a semester at a university or college
+		4)	false, a PhD committee is a group of university teachers who coach a doctoral student
+		
+19.4	1)	school
+		2)	quiz
+		3)	comps
+		4)	sorority
+		5)	senior
+		6)	sophomore
+		7)	faculty
+		
+20.1	1)	1 year
+		2)	60
+		3)	all students on the course have to take them
+		4)	MA students write a dissertation as well as doing the taught courses
+		5)	at least 10
+		6)	3000 words
+		7)	lectures, seminars, workshops and tutorials
+		8)	a 3000 word assignment for each module and essays, project and portfolio work for each elective module, plus the dissertation for MA students
+		9)	the word limit is 12-15000 words
+		10)	they have to get an average mark of over 70% for all modules
+		
+20.2	1)	project
+		2)	module
+		3)	dissertation
+		4)	diploma
+		5)	MA
+		6)	sign
+		7)	PhD
+		8)	in-sessional
+		
+20.3	1)	upgrade
+		2)	pre-sessional
+		3)	enrolled
+		4)	proceed
+		5)	obligatory
+		6)	supervisions
+		7)	defer
+		8)	assessment
+		
+20.4	verb			noun			adjective		
+		-------------------------------------------
+		opt				option			optional		
+		oblige			obligation		obligatory		
+		supervise		supervision		supervisory		
+		assess			assessment		---------		
+		----			eligibility		eligible			
