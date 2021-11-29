@@ -8,9 +8,14 @@ all: factory
 factory: factory.c
 	$(CC) $(CFLAGS) $(EXTRA_CFLAGS) $(LIBS) -o $@ $<
 
-test:
+test_01:
 	make
-	./factory < in.txt
+	./factory < in_01.txt
+	make clean
+	
+test_02:
+	make
+	./factory < in_02.txt
 	make clean
 
 clean:
