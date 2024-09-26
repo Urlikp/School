@@ -1,0 +1,10 @@
+# ninja log v5
+0	325	7258202864079211	CMakeFiles/08_du.dir/main.cpp.obj	67540ac83af30102
+422	502	7258209540370584	08_du_new.exe	97b4c726e33dbdea
+4	411	7258209539460508	CMakeFiles/08_du_new.dir/utils.cpp.obj	5b7bfb09fb46f9bf
+10	327	7258202864089192	CMakeFiles/08_du.dir/algorithm08.cpp.obj	676d189ee227576e
+7	346	7258202864290309	CMakeFiles/08_du.dir/utils.cpp.obj	f905c23d14533d75
+1	111	7258210262614471	build.ninja	11c65a2e38547c5e
+0	409	7258209539470510	CMakeFiles/08_du_new.dir/main.cpp.obj	d30bd1b843c5cf70
+7	421	7258209539590541	CMakeFiles/08_du_new.dir/algorithm08.cpp.obj	9852ae86c266780d
+1	120	7258210262614471	build.ninja	11c65a2e38547c5e

@@ -1,0 +1,7 @@
+Pop
+Goal? Konec
+Button? Zmen mapu-u tebe key
+Foreach move
+    - Next-is valid-neni zed na kterou nemuzu
+    - Visited next
+    - enqueue next
