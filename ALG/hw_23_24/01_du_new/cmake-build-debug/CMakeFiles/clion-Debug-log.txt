@@ -1,0 +1,6 @@
+C:\Users\vojte\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\vojte\Documents\git\lab\alg_homeworks\01_du_new -B C:\Users\vojte\Documents\git\lab\alg_homeworks\01_du_new\cmake-build-debug
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.26 or higher is required.  You are running version 3.25.2
+
+
+-- Configuring incomplete, errors occurred!
